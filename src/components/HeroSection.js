@@ -14,7 +14,7 @@ function HeroSection() {
       ref={ref}
       className="min-h-screen bg-[#2F1893] bg-cover bg-center flex items-center justify-center px-4"
       style={{
-        backgroundImage: "url('/background.png')",
+        backgroundImage: "url('/Background.png')",
       }}
     >
       <div className="rounded-lg max-w-4xl w-full flex flex-col items-center justify-center text-center">
