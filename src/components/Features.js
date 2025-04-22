@@ -40,7 +40,7 @@ export default function HeroSection() {
           variants={fadeInUp}
         >
           <motion.h1
-            className="text-4xl md:text-4xl font-semibold mb-4 leading-13"
+            className="text-4xl md:text-3xl font-semibold mb-4 leading-13"
             variants={fadeInUp}
           >
             We Create Something New

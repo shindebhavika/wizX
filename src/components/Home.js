@@ -5,7 +5,7 @@ import { PiBeachBallLight } from 'react-icons/pi'
 import { motion, useInView } from 'framer-motion'
 
 const navLinks = ['Home', 'Features', 'Pricing', 'Blog']
-
+export const dynamic = 'force-static'
 const containerVariants = {
   hidden: {},
   visible: {
@@ -76,7 +76,7 @@ export default function Home() {
           <motion.p className="font-bold text-2xl" variants={fadeInUp}>
             Startup 3
           </motion.p>
-          <motion.h1 className="text-7xl font-bold mt-4 mb-4" variants={fadeInUp}>
+          <motion.h1 className="text-7xl sm:text-4xl font-bold mt-4 mb-4" variants={fadeInUp}>
             Forget About Code
           </motion.h1>
           <motion.p className="max-w-xl mx-auto text-lg text-white/90 mb-8" variants={fadeInUp}>

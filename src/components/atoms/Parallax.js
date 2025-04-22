@@ -16,10 +16,7 @@ function Image({ id }) {
   return (
     <section className="img-container">
       <div ref={ref}>
-        <img
-          src={`/photos/cityscape/${id}.jpg`}
-          alt={`A London skyscraper #00${id}`}
-        />
+       
       </div>
       <motion.h2
         initial={{ visibility: "hidden" }}

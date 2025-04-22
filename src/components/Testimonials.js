@@ -51,7 +51,7 @@ function Testimonials() {
 
   return (
     <motion.section
-      initial="hidden"
+      // initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.9 }}
       variants={containerVariants}

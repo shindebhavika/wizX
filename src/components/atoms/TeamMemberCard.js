@@ -25,7 +25,7 @@ const TeamMemberCard = ({ name, role, src, socials }) => {
       <p className="text-white/60 text-sm">{role}</p>
       <div className="flex gap-4  text-sm mt-1">
         {socials.map((platform, i) => (
-          <span key={i} className="hover:text-white/80 cursor-pointer">
+          <span key={i} className="hover:text-white/80 text-blue/80  cursor-pointer">
             {iconsMap[platform]}
           </span>
         ))}
