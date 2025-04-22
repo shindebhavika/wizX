@@ -7,7 +7,7 @@ export default function AuthPage() {
   return (
 <div
   className="min-h-screen bg-[#2F1893] bg-cover bg-center flex items-center justify-center px-4 sm:px-6 md:px-10"
-  style={{ backgroundImage: "url('/background.png')" }}
+  style={{ backgroundImage: "url('/Background.png')" }}
 >
   <div className="w-full max-w-6xl p-6 md:p-10 rounded-lg flex flex-col md:flex-row items-center justify-between gap-10">
     {/* Left Section */}
