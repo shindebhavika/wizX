@@ -26,7 +26,7 @@ export default function HeroSection() {
         {/* Left: Laptop Image */}
         <motion.div className="md:w-1/2 w-full flex justify-start ml-0" variants={fadeInUp}>
           <Image
-            src="/MockUP.png"
+            src="/Mockup.png"
             alt="Laptop Visual"
             width={400}
             height={300}
