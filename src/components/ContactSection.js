@@ -48,7 +48,7 @@ function ContactSection() {
         >
           <h2 className="text-[22px] sm:text-[35px] font-bold">Let’s Keep in Touch</h2>
           <p className="text-white/80 text-lg sm:text-lg">
-          We're building tools to help businesses unlock hidden value from unused software licenses. Whether you're a startup optimizing costs or an enterprise with legacy software, SoftSell is here to make your resale journey fast, secure, and profitable..
+          We are building tools to help businesses unlock hidden value from unused software licenses. Whether you are a startup optimizing costs or an enterprise with legacy software, SoftSell is here to make your resale journey fast, secure, and profitable..
           </p>
 
           <div className="space-y-5 text-sm">

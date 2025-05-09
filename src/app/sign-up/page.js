@@ -19,7 +19,7 @@ export default function AuthPage() {
         creative flare
       </h2>
       <p className="text-white/80 text-md font-medium">
-      We're building tools to help businesses unlock hidden value from unused software licenses. Whether you're a startup optimizing costs or an enterprise with legacy software, SoftSell is here to make your resale journey fast, secure, and profitable...
+      We ere building tools to help businesses unlock hidden value from unused software licenses. Whether you are a startup optimizing costs or an enterprise with legacy software, SoftSell is here to make your resale journey fast, secure, and profitable...
       </p>
     </div>
 
