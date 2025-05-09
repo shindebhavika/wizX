@@ -9,7 +9,8 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
           {/* Left: Brand */}
           <div className="text-lg font-semibold">
-            <img src='/logo.png' className='rounded-full h-20 w-20'/>
+            SoftSell
+            {/* <img src='/logo.png' className='rounded-full h-20 w-20'/> */}
           </div>
 
           {/* Right: Policy & Social */}

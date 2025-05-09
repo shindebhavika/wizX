@@ -12,7 +12,7 @@ export default function AuthPage() {
   <div className="w-full max-w-6xl p-6 md:p-10 rounded-lg flex flex-col md:flex-row items-center justify-between gap-10">
     {/* Left Section */}
     <div className="text-white w-full md:max-w-md text-center md:text-left px-2">
-    <img src='/logo.png' className='rounded-full h-20 w-20'/>
+    {/* <img src='/logo.png' className='rounded-full h-20 w-20'/> */}
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
         We solve digital <br />
         problems with an outstanding <br />
