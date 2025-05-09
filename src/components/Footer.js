@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
@@ -8,15 +7,10 @@ function Footer() {
     <footer className="bg-[#2F1893] text-white px-6 py-8 ">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
-    
-          <Image
-  src="/logo.png"
-  alt="SoftSell Logo"
-  className="rounded-full"
-  width={80}
-  height={80}
-/>
- 
+          {/* Left: Brand */}
+          <div className="text-lg font-semibold">
+            <img src='/logo.png' className='rounded-full h-20 w-20'/>
+          </div>
 
           {/* Right: Policy & Social */}
           <div className="flex items-center space-x-6 text-sm">
