@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
@@ -7,16 +8,23 @@ function Footer() {
     <footer className="bg-[#2F1893] text-white px-6 py-8 ">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
-          {/* Left: Brand */}
-          <div className="text-lg font-semibold">Startup 3</div>
+    
+          <Image
+  src="/logo.png"
+  alt="SoftSell Logo"
+  className="rounded-full"
+  width={80}
+  height={80}
+/>
+ 
 
           {/* Right: Policy & Social */}
           <div className="flex items-center space-x-6 text-sm">
             <a href="#" className="hover:underline">Privacy Policy</a>
             <a href="#" className="hover:underline">Terms</a>
-            <a href="#" className="hover:text-gray-300 text-2xl"><FaTwitter/></a>
-            <a href="#" className="hover:text-gray-300 text-2xl"><FaFacebookF/></a>
-            <a href="#" className="hover:text-gray-300 text-2xl"><GrGooglePlus/></a>
+            <a href="#" className="hover:text-gray-300 text-2xl"><FaTwitter /></a>
+            <a href="#" className="hover:text-gray-300 text-2xl"><FaFacebookF /></a>
+            <a href="#" className="hover:text-gray-300 text-2xl"><GrGooglePlus /></a>
           </div>
         </div>
 
@@ -35,7 +43,7 @@ function Footer() {
           </div>
 
           {/* Copyright */}
-          <div className="mt-4 md:mt-0">© 2017 Designmodo. All rights reserved.</div>
+          <div className="mt-4 md:mt-0">© 2017 SoftSell. All rights reserved.</div>
         </div>
       </div>
     </footer>

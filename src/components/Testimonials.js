@@ -27,7 +27,7 @@ function Testimonials() {
       name: 'Rayhan Curran',
       src: '/client1.png',
       feedback:
-        'Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support',
+        'SoftSell made it so easy to sell off our unused licenses. We recovered value we thought was lost!',
     },
     {
       name: 'Kayley Frame',
@@ -45,7 +45,7 @@ function Testimonials() {
       name: 'Allan Kim',
       src: '/client4.png',
       feedback:
-        'I’ve built my website with Startup just in one day, and it was ready-to-go. ',
+        'Fast, fair, and efficient! Highly recommend SoftSell to anyone with surplus software',
     },
   ]
 

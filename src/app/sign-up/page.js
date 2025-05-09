@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { useState } from "react";
 
 export default function AuthPage() {
@@ -12,13 +13,20 @@ export default function AuthPage() {
   <div className="w-full max-w-6xl p-6 md:p-10 rounded-lg flex flex-col md:flex-row items-center justify-between gap-10">
     {/* Left Section */}
     <div className="text-white w-full md:max-w-md text-center md:text-left px-2">
+         <Image
+          src="/logo.png"
+          alt="SoftSell Logo"
+          className="rounded-full"
+          width={80}
+          height={80}
+        />
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-4">
         We solve digital <br />
         problems with an outstanding <br />
         creative flare
       </h2>
       <p className="text-white/80 text-md font-medium">
-        We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.
+      We're building tools to help businesses unlock hidden value from unused software licenses. Whether you're a startup optimizing costs or an enterprise with legacy software, SoftSell is here to make your resale journey fast, secure, and profitable...
       </p>
     </div>
 

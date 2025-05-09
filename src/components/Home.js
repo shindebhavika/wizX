@@ -35,6 +35,7 @@ export default function Home() {
       style={{ backgroundImage: "url('/home-bg.png')" }}
       ref={sectionRef}
     >
+     
       {/* Overlay */}
       <motion.div
         className="bg-gradient-to-b from-purple-500/60 via-indigo-600/40 to-blue-800/40 min-h-screen flex flex-col items-center justify-center px-4"
@@ -46,7 +47,8 @@ export default function Home() {
         <motion.nav
           className="w-full max-w-6xl flex justify-center items-center text-sm py-6 text-white/80"
           variants={fadeInUp}
-        >
+        > 
+        
           <div className="flex space-x-6 font-600 text-[18px]">
             {navLinks.map((item) => (
               <motion.a
@@ -74,15 +76,13 @@ export default function Home() {
         {/* Center Content */}
         <motion.div className="text-center mt-16" variants={fadeInUp}>
           <motion.p className="font-bold text-2xl" variants={fadeInUp}>
-            Startup 3
+          SoftSell 
           </motion.p>
-          <motion.h1 className="text-7xl font-bold mt-4 mb-4" variants={fadeInUp}>
-            Forget About Code
+          <motion.h1 className="text-5xl font-bold mt-4 mb-4  variants={fadeInUp} ">
+          Resell Your Unused Software
           </motion.h1>
           <motion.p className="max-w-xl mx-auto text-lg text-white/90 mb-8" variants={fadeInUp}>
-            Startup Framework gives you complete freedom over your creative process —
-            you don’t have to think about any technical aspects. There are no limits
-            and absolutely no coding.
+          SoftSell helps you easily sell your software licenses and monetize your unused assets — fast, secure, and hassle-free.
           </motion.p>
 
           {/* Dots */}

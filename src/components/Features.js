@@ -43,16 +43,14 @@ export default function HeroSection() {
             className="text-4xl md:text-3xl font-semibold mb-4 leading-13"
             variants={fadeInUp}
           >
-            We Create Something New
+          We Help You Unlock Value
           </motion.h1>
 
           <motion.p
             className="text-base md:text-lg mb-6 font-medium leading-7"
             variants={fadeInUp}
           >
-            We have created a new product that will help designers, <br />
-            developers, and companies create websites for their <br />
-            startups quickly and easily.
+            SoftSell is built to empower business owners, IT teams, <br></br> and  software managers to turn unused software licenses <br></br>  into profit — quickly,securely, and effortlessly.
           </motion.p>
 
           {/* Feature Icons Section */}
@@ -65,12 +63,10 @@ export default function HeroSection() {
                 <RxCopy />
               </div>
               <h3 className="text-sm font-bold uppercase leading-6 tracking-[2px]">
-                30 New Feature Pages
+              💡 30+ Software Categories Supported
               </h3>
               <p className="text-[16px] mt-3 leading-7 font-medium">
-                Startup Framework contains <br />
-                components and complex blocks <br />
-                which can easily.
+              We handle a wide variety of licenses — from productivity suites to enterprise tools — with customized evaluation and resale paths <br></br>tailored to your needs.
               </p>
             </motion.div>
 
@@ -82,12 +78,10 @@ export default function HeroSection() {
                 <IoDiamondOutline />
               </div>
               <h3 className="text-sm font-bold uppercase leading-6 tracking-[2px]">
-                Useful Symbol Components
+              🧩 Smart Matching & Valuation Engine
               </h3>
               <p className="text-[16px] mt-3 leading-7 font-medium">
-                Samples will show you the feeling on <br />
-                how to play around using the <br />
-                components.
+              Our system uses a smart algorithm to match your licenses with real-time buyer demand, ensuring the best possible return.
               </p>
             </motion.div>
           </div>
